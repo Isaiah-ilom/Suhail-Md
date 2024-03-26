@@ -16,17 +16,17 @@ global.allowJids= process.env.ALLOW_JID || "null"
 global.blockJids= process.env.BLOCK_JID || "null"
 global.DATABASE_URL = process.env.DATABASE_URL || ""
 
-global.timezone= process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
+global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Nigeria";
 global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
-global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643";
-global.website=process.env.GURL || "https://whatsapp.com/channel/0029Va9thusJP20yWxQ6N643" ; 
+global.gurl  =process.env.GURL  || "https://chat.whatsapp.com/JydJljUwQ1EA9p5hGZL9q9";
+global.website=process.env.GURL || "https://chat.whatsapp.com/JydJljUwQ1EA9p5hGZL9q9" ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://www.facebook.com/profile.php?id=61553871285563.jpg" ; // SET LOGO FOR IMAGE 
 
 
 
-global.devs = "2348180146181" // Developer Contact
+global.devs = "2348180146181,2348023476091" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "2348180146181";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "2348180146181,2348023476091";
 
 
 
@@ -49,7 +49,7 @@ global.waPresence= process.env.WAPRESENCE ||  "set according to your need" ; // 
 //========================= [ AUTO READ MSGS & CMDS ] =========================\\
 global.readcmds = process.env.READ_COMMAND || "false"
 global.readmessage = process.env.READ_MESSAGE || "false"
-global.readmessagefrom = process.env.READ_MESSAGE_FROM || "2348180146181,234xxxxxxxx";
+global.readmessagefrom = process.env.READ_MESSAGE_FROM || "2348180146181,2348023476091,234xxxxxxxx";
 
 
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
@@ -72,12 +72,12 @@ module.exports = {
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "1.3.1",
-  caption : process.env.CAPTION || "@Isaiah" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
+  caption : process.env.CAPTION || "@Isaiah" , // 
  
   author : process.env.PACK_AUTHER|| "Raphael",
   packname: process.env.PACK_NAME || "♥️",
   botname : process.env.BOT_NAME  || "Raphael",
-  ownername:process.env.OWNER_NAME|| "Isaiah",
+  ownername:process.env.OWNER_NAME|| "Isaiah × Enoch",
 
 
   errorChat : process.env.ERROR_CHAT || "",
@@ -93,7 +93,7 @@ module.exports = {
   aitts_Voice_Id : process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY  || "",
   WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "private",
-  LANG: ( process.env.THEME ||  "Raphael"  ).toUpperCase(),
+  LANG: ( process.env.THEME ||  "Raphael×Enoch"  ).toUpperCase(),
 
 
 
