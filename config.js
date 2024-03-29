@@ -19,14 +19,14 @@ global.DATABASE_URL = process.env.DATABASE_URL || ""
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Nigeria";
 global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
 global.gurl  =process.env.GURL  || "https://chat.whatsapp.com/JydJljUwQ1EA9p5hGZL9q9";
-global.website=process.env.GURL || "https://chat.whatsapp.com/JydJljUwQ1EA9p5hGZL9q9" ; 
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://www.facebook.com/profile.php?id=61553871285563.jpg" ; // SET LOGO FOR IMAGE 
+global.website=process.env.GURL || "https://chat.whatsapp.com/JydJljUwQ1EA9p5hGZL9q9,https://tinyurl.com/2bd6463t" ; 
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://tinyurl.com/2bd6463t" ; // SET LOGO FOR IMAGE 
 
 
 
-global.devs = "2348180146181,2348023476091" // Developer Contact
+global.devs = "2348180146181" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "2348180146181,2348023476091";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "2348180146181";
 
 
 
@@ -42,14 +42,14 @@ global.disablepm = process.env.DISABLE_PM || "false"
 global.disablegroup = process.env.DISABLE_GROUPS || "false", // disable bot in groups when public mode
 
 global.MsgsInLog = process.env.MSGS_IN_LOG|| "false" // "true"  to see messages , "log" to open logs , "false" to hide logs messages
-global.userImages= process.env.USER_IMAGES || "https://www.facebook.com/profile.php?id=61553871285563" // Goku Theme Images
+global.userImages= process.env.USER_IMAGES || "https://tinyurl.com/2bd6463t" // Goku Theme Images
 global.waPresence= process.env.WAPRESENCE ||  "set according to your need" ; // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
 
 
 //========================= [ AUTO READ MSGS & CMDS ] =========================\\
 global.readcmds = process.env.READ_COMMAND || "false"
 global.readmessage = process.env.READ_MESSAGE || "false"
-global.readmessagefrom = process.env.READ_MESSAGE_FROM || "2348180146181,2348023476091,234xxxxxxxx";
+global.readmessagefrom = process.env.READ_MESSAGE_FROM || "2348180146181,234xxxxxxxx";
 
 
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
@@ -77,7 +77,7 @@ module.exports = {
   author : process.env.PACK_AUTHER|| "Raphael",
   packname: process.env.PACK_NAME || "♥️",
   botname : process.env.BOT_NAME  || "Raphael",
-  ownername:process.env.OWNER_NAME|| "Isaiah × Enoch",
+  ownername:process.env.OWNER_NAME|| "Isaiah",
 
 
   errorChat : process.env.ERROR_CHAT || "",
