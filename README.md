@@ -9,7 +9,7 @@
 
 <p align="center">
   <a href="https://youtube.com/@suhailtechinfo">
-    <img alt="Rapheal docs" height="300" src="https://tinyurl.com/2bd6463t.jpg">
+    <img alt="Rapheal docs" height="300" src="https://tinyurl.com/2bd6463t">
   </a>
 </p>
     
