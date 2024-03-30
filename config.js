@@ -20,7 +20,7 @@ global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Nigeria";
 global.github=process.env.GITHUB|| "https://github.com/SuhailTechInfo/Suhail-Md";
 global.gurl  =process.env.GURL  || "https://chat.whatsapp.com/JydJljUwQ1EA9p5hGZL9q9";
 global.website=process.env.GURL || "https://chat.whatsapp.com/JydJljUwQ1EA9p5hGZL9q9,https://tinyurl.com/2bd6463t" ; 
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://tinyurl.com/2bd6463t" ; // SET LOGO FOR IMAGE 
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://tinyurl.com/2bd6463t,https://scontent.xx.fbcdn.net/v/t1.15752-9/430433195_1425967481351889_784983968421351695_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=YG2nel1LhEsAX-rMdcR&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSxNuZRAXPkQXmHTv1a2IYJOjWn7HQcbORmofy946CL6Q&oe=662F4C32" ; // SET LOGO FOR IMAGE 
 
 
 
@@ -42,7 +42,7 @@ global.disablepm = process.env.DISABLE_PM || "false"
 global.disablegroup = process.env.DISABLE_GROUPS || "false", // disable bot in groups when public mode
 
 global.MsgsInLog = process.env.MSGS_IN_LOG|| "false" // "true"  to see messages , "log" to open logs , "false" to hide logs messages
-global.userImages= process.env.USER_IMAGES || "https://tinyurl.com/2bd6463t" // Goku Theme Images
+global.userImages= process.env.USER_IMAGES || "https://tinyurl.com/2bd6463t,https://scontent.xx.fbcdn.net/v/t1.15752-9/430433195_1425967481351889_784983968421351695_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=YG2nel1LhEsAX-rMdcR&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSxNuZRAXPkQXmHTv1a2IYJOjWn7HQcbORmofy946CL6Q&oe=662F4C32" // Goku Theme Images
 global.waPresence= process.env.WAPRESENCE ||  "set according to your need" ; // 'unavailable' | 'available' | 'composing' | 'recording' | 'paused'
 
 
@@ -93,7 +93,7 @@ module.exports = {
   aitts_Voice_Id : process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY  || "",
   WORKTYPE: process.env.WORKTYPE || process.env.MODE|| "private",
-  LANG: ( process.env.THEME ||  "Raphael×Enoch"  ).toUpperCase(),
+  LANG: ( process.env.THEME ||  "Raphael"  ).toUpperCase(),
 
 
 
